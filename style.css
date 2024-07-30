@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #FFB7B7;
+    font-family: 'Roboto', sans-serif;
+}
+nav1{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 70px;
+width: 100%;   
+/*background-color: #3C486B;*/     
+}
+nav1 ul{
+display: flex;
+justify-content: center;
+margin: 0px;    
+}
+nav1 ul li{
+list-style: none;
+margin:  0 15px ;
+padding: 15px;
+
+}
+a{
+text-decoration: none;
+color: #FFB7B7;
+}
+a:hover{
+background-color: #EFF5F5;
+font-size: 1.1rem;
+
+}
+.left{
+font-size: 35px;
+}
+span{
+color: beige;
+font-size: 50px;
+}
+.firstsection{
+display: flex;
+justify-content: space-around;
+margin: 70px 0;
+align-items: center;
+}
+.firstsection > div{
+width: 40%;
+}
+.leftsection{
+color:  #EDB7ED;
+font-size: 3rem;
+/*background-color: aliceblue;*/
+
+}
+.rightsection img{
+width: 100%;
+/*background-color: aqua;*/
+}
+.imgsid {
+width: 400px;
+height: 400px;
+object-fit: cover;
+border-radius: 50%;
+}
+.myhr{
+margin: 30px 50px;
+background-color: #EFF5F5;
+height: 2px;
+width: 90vw;
+justify-content: space-around;
+
+}
+.aboutme{
+margin: 50px 0;
+max-width: 90vw;
+margin: auto;
+font-size: 2rem;
+
+}
+.secondsection{
+display: flex;
+justify-content: space-around;
+margin: 70px 0;
+align-items: center;
+}
+.secondsection > div{
+width: 40%;
+display: flex;
+}
+.container p,li{
+font-size: 18px;
+}
+.myhr2{
+margin: 30px 50px;
+background-color: #EFF5F5;
+height: 2px;
+width: 90vw;
+justify-content: space-around;
+}
+/* .left1{
+background-image: url("/pexels-luis-gomes-546819.jpg");
+background-color: red; 
+} */
+.thirdsection{
+/* background-image: url("/pexels-luis-gomes-546819.jpg"); */
+ display: flex;
+ justify-content: space-between;
+margin: 70px 0;
+padding: 20px;
+  overflow-x:scroll;
+  overflow:hidden;
+/* align-items: center; */ 
+}
+
+/* .exppart1 > div{
+width: 40%;
+height: 40%;
+} */
+.left1{
+height: 400px;
+width: 600px;
+text-align: center;
+background-image: url("/pexels-luis-gomes-546819.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.skillpython{
+display: flex;
+
+}
+.htmlcss{
+display: flex;
+
+}
+
+
